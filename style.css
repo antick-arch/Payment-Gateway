@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72, 128, 136);
+    height: 700px;
+    width: 100%;
+}
+
+.main {
+    height: 500px; 
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    box-shadow: 5px 5px rgb(143, 143, 202), 10px 10px rgb(218, 169, 169), 15px 15px rgb(183, 226, 183);
+}
+
+.div1, .div2 {
+    height: 100%;
+    width: 50%;
+    padding: 20px; 
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
